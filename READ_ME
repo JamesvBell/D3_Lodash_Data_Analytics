@@ -1,0 +1,57 @@
+I used Windows 10
+Website for tutorial, props to them: 
+http://learnjsdata.com/getting_started.html
+
+To get started, go to Node.js and install it. This comes with NPM 
+https://nodejs.org/en/
+
+After installation, go to command Prompt in Windows and run the install server script, I used the last one 
+npm install -g http-server
+
+Then find your http-server filepath by looking in your folder. 
+
+The tutorial assumes you know more than I did, so I used this youtube video and made it work. 
+
+https://www.youtube.com/watch?v=oa9m8321_nw
+
+Here was my filepath in Windows, buried pretty deep and I changed my users name on my PC to protect the innocent. 
+
+C:\Users\FirstName LastName\AppData\Roaming\npm\node_modules\http-server
+
+Create a new file and rename it index.html
+
+I then copied my filepath and went back to the command prompt. 
+
+I typed in cd and pasted the filepath and clicked enter. This is changing the directory to your new directory. 
+
+Then type npm init and press enter, it will open the utility
+
+Then I entered node_tutorial for the package name. Leave out the <>. 
+Then kept pressing enter until I got to my name and entered my name. 
+
+then it executed a bunch of code. 
+
+Keep following the youtube video until you get to about the 2 minute mark. 
+
+You need to make sure your directory is all the way to the http-server/bin on the command prompt 
+
+I couldnt' get what they had in the video to work, but stack overflow to the rescue!!
+https://stackoverflow.com/questions/31328365/how-to-start-http-server-locally
+
+add this to the end of the directory and run and your server should start!! Use the url listed on your command prompt to get it to show up. 
+http-server -a localhost -p 8000 -c-1
+
+Then go to your http site! 
+
+I'd copy and paste that file location in a safe place
+To stop the server press ctrl c
+
+Then to start it again you'll need to cd filepath
+
+Try turning it off and on again to get the hang of it. 
+
+
+
+
+http-server -a localhost -p 8000 -c-1
+
